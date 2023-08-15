@@ -10,7 +10,10 @@
 
   <div class="w-full max-w-md p-4 bg-white rounded shadow-lg">
     <h1 class="text-2xl font-semibold mb-4">Activity Suggestion</h1>
-    <button id="fetchActivityBtn" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring">Fetch Activity</button>
+    <button id="fetchActivityBtn" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring">
+      <span id="btnText">Fetch Activity</span>
+      <span id="loadingSpinner" class="hidden ml-2 animate-spin">&#9696;</span>
+    </button>
     <div id="result" class="mt-4 hidden">
       <p class="text-xl font-semibold mb-2">Activity Suggestion:</p>
       <p id="activity" class="text-lg mb-4"></p>
