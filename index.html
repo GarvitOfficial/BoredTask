@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity Suggestion</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex items-center justify-center min-h-screen">
+
+  <div class="w-full max-w-md p-4 bg-white rounded shadow-lg">
+    <h1 class="text-2xl font-semibold mb-4">Activity Suggestion</h1>
+    <button id="fetchActivityBtn" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring">Fetch Activity</button>
+    <div id="result" class="mt-4 hidden">
+      <p class="text-xl font-semibold mb-2">Activity Suggestion:</p>
+      <p id="activity" class="text-lg mb-4"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
